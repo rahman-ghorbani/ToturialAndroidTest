@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                         .position(TEHRAN)
                         .title("تهران")
                         .setIcon(IconFactory.recreate("ic_announcement_black" , source))
-                        .snippet("جمعیت : 8,627,300 نفر"));
+                        .snippet("جمعیت : 8,627,30 نفر"));
         });
     }
 
