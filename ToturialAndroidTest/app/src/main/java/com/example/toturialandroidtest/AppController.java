@@ -1,0 +1,15 @@
+package com.example.toturialandroidtest;
+
+import android.app.Application;
+
+import ir.map.sdk_map.Mapir;
+
+
+public class AppController extends Application {
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        //TODO Please add your ACCESS_TOKEN
+        Mapir.getInstance(this, "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjI1MjI3MWIxN2IzNjA0OTQwZDBmOGYzOTQyZTYzZjNlYjc5MjkyNzFkNDlhNDMyNjUwYWQwOWIzNDQzNzI1ZTQxYTRmYTRlZjQxOGQ0MWVjIn0.eyJhdWQiOiI1MjU1IiwianRpIjoiMjUyMjcxYjE3YjM2MDQ5NDBkMGY4ZjM5NDJlNjNmM2ViNzkyOTI3MWQ0OWE0MzI2NTBhZDA5YjM0NDM3MjVlNDFhNGZhNGVmNDE4ZDQxZWMiLCJpYXQiOjE1NjU0MzUzODYsIm5iZiI6MTU2NTQzNTM4NiwiZXhwIjoxNTY4MTEzNzg0LCJzdWIiOiIiLCJzY29wZXMiOlsiYmFzaWMiXX0.VD3YXIdaAl5Wh654YGXB7gRGiupotSLwMPMOmmh0UvIdzHOUQfuwvg3mpGFELiNHg57wn1u7dGUJvbF1hk_UNj9po8lA4QsWtBrwLzhRKCzi2dYNyONfUqBiETVh07FSTnEsT9mJ3W1-kflajF5bl7vS6ixXp-LGlp2iREvrEjSs0WmCOwylCp4ej0YQwMKqzksaycp3CnK9eciATKIuSBc9OaCAP3nvuKwFqv1Wy_13jLJoqlgTVrPyNGKSD8DEkvWtKSDoss-9JLu9yvU98qof61bu5riCCtzsMCounHp4qIMmNdB9_H1vOIVEJ49TQ77ke05dSTAd6Iavjy2whg");
+    }
+}
